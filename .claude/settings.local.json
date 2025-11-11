@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__context7__resolve-library-id",
+      "mcp__context7__get-library-docs",
+      "Bash(REACT_APP_API_URL=https://ugcvideo-server-production.up.railway.app npm run build)",
+      "Bash(cp:*)",
+      "WebSearch",
+      "Read(/home/sergio/**)",
+      "Bash(npm uninstall:*)",
+      "Bash(npm install:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

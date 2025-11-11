@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE "User" ALTER COLUMN "credits" SET DEFAULT 0,
+ALTER COLUMN "videoCredits" SET DEFAULT 0;
