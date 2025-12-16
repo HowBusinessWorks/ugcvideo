@@ -6,6 +6,7 @@ export const serverMiddlewareFn: MiddlewareConfigFn = (middlewareConfig) => {
   // Add CORS middleware to allow your custom domain
   middlewareConfig.set('cors', cors({
     origin: [
+      'https://ugcvideo-app.netlify.app', // Netlify production
       'https://ugcvideo.io',
       'https://www.ugcvideo.io',
       'https://ugcvideo-client-production.up.railway.app',

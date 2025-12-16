@@ -418,21 +418,6 @@ export default function VideoGenerationTab() {
               </p>
             </div>
 
-            {/* Duration */}
-            <div className="space-y-2">
-              <Label>Duration (seconds)</Label>
-              <Select value={duration.toString()} onValueChange={(value) => setDuration(parseInt(value))}>
-                <SelectTrigger>
-                  <SelectValue />
-                </SelectTrigger>
-                <SelectContent>
-                  <SelectItem value="5">5 seconds</SelectItem>
-                  <SelectItem value="8">8 seconds</SelectItem>
-                  <SelectItem value="10">10 seconds</SelectItem>
-                </SelectContent>
-              </Select>
-            </div>
-
             {/* Aspect Ratio */}
             <div className="space-y-2">
               <Label>Aspect Ratio</Label>

@@ -1,5 +1,10 @@
 #!/bin/bash
 
+#AFTER WASP BUILD
+#   cp tailwind.config.cjs postcss.config.cjs .wasp/build/web-app/
+#   cd .wasp/build/web-app
+#   npm install tailwindcss@^3.2.7 autoprefixer@^10.0.0
+
 # Script to fix CSS/Tailwind configuration after wasp clean
 
 echo "🎨 Setting up CSS configuration..."
